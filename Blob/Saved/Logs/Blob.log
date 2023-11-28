@@ -13573,3 +13573,44 @@ Script call stack:
 [2023.11.28-01.25.04:815][251]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
 [2023.11.28-01.25.04:844][251]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
 [2023.11.28-01.25.04:867][251]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 12.9 sec)
+[2023.11.28-01.25.35:015][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2023.11.28-01.25.37:255][405]LogSlate: Window 'Save Content' being destroyed
+[2023.11.28-01.25.37:267][405]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: ================================================
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: Total job queries 5,546, among them cache hits 1,630 (29.39%)
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: Tracking 3,891 distinct input hashes that result in 2,655 distinct outputs (68.23%)
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: RAM used: 68.14 MiB of 1.60 GiB budget. Usage: 4.16%
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: Shaders Compiled: 3,891
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: Jobs assigned 3,891, completed 3,891 (100.00%)
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: Average time worker was idle: 118.75 s
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: Time job spent in pending queue: average 122.79 s, longest 284.19 s
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: Job execution time: average 6.10 s, max 21.33 s
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: Job life time (pending + execution): average 128.89 s, max 288.63
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 385.20 s
+[2023.11.28-01.25.38:125][405]LogShaderCompilers: Display: Jobs were issued in 787 batches (only local compilation was used), average 4.94 jobs/batch
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display: Average processing rate: 10.10 jobs/sec
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display: Total thread time: 2,557.01 s
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display: Total thread preprocess time: 70.444 s
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display: Percentage time preprocessing: 2.75%
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display: Effective parallelization: 6.64 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 7.76 sec, max 12.84 sec, min 2.54 sec)
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 4.76 sec, max 5.82 sec, min 3.57 sec)
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 1.93 sec, max 4.59 sec, min 1.14 sec)
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   34 times, average 1.89 sec, max 4.91 sec, min 1.27 sec)
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display:                                        FCloudRenderViewPS111 (compiled    1 times, average 1.88 sec, max 1.88 sec, min 1.88 sec)
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display:                                             FDeferredLightPS - 9.45% of total time (compiled  150 times, average 1.61 sec, max 3.46 sec, min 1.35 sec)
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 4.41% of total time (compiled   96 times, average 1.17 sec, max 1.65 sec, min 0.87 sec)
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.34% of total time (compiled  128 times, average 0.87 sec, max 2.36 sec, min 0.50 sec)
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 3.90% of total time (compiled  128 times, average 0.78 sec, max 1.02 sec, min 0.57 sec)
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 3.89% of total time (compiled   96 times, average 1.04 sec, max 1.47 sec, min 0.50 sec)
+[2023.11.28-01.25.38:126][405]LogShaderCompilers: Display: ================================================
+[2023.11.28-01.25.38:160][405]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Player/Outlines/MPP_SelectionHighlight" FILE="../../../../../../BlobProject/Blob/Content/Player/Outlines/MPP_SelectionHighlight.uasset" SILENT=true
+[2023.11.28-01.25.38:172][405]LogSavePackage: Moving output files for package: /Game/Player/Outlines/MPP_SelectionHighlight
+[2023.11.28-01.25.38:173][405]LogSavePackage: Moving '../../../../../../BlobProject/Blob/Saved/MPP_SelectionHighlightB543767B4277362EE12FBFB93AEDB5DF.tmp' to '../../../../../../BlobProject/Blob/Content/Player/Outlines/MPP_SelectionHighlight.uasset'
+[2023.11.28-01.25.38:183][405]LogFileHelpers: InternalPromptForCheckoutAndSave took 916 ms (total: 13.8 sec)
+[2023.11.28-01.25.38:190][405]AssetCheck: New page: Asset Save: MPP_SelectionHighlight
+[2023.11.28-01.25.38:190][405]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Player/Outlines/MPP_SelectionHighlight.MPP_SelectionHighlight
