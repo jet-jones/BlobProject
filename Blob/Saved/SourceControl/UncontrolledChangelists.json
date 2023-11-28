@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"D:/Unreal Projects/BlobProject/Blob/Content/Objects/BP_WeldingTorch.uasset",
+				"D:/Unreal Projects/BlobProject/Blob/Content/__ExternalActors__/Maps/TestingMap/A/GL/FM4LL6KBJITVSOZYS5R0ER.uasset",
+				"D:/Unreal Projects/BlobProject/Blob/Content/__ExternalActors__/Maps/TestingMap/E/3M/LB0E1OEI0DNYF2TJR5T1RO.uasset",
+				"D:/Unreal Projects/BlobProject/Blob/Content/Objects/BP_Tape.uasset",
+				"D:/Unreal Projects/BlobProject/Blob/Content/__ExternalActors__/Maps/TestingMap/2/SJ/CX5G9ATCWYBPETIIB23RNH.uasset",
+				"D:/Unreal Projects/BlobProject/Blob/Content/Objects/Tools/CanBeWelded.uasset",
+				"D:/Unreal Projects/BlobProject/Blob/Content/Objects/Tools/Interface_Weld.uasset",
 				"D:/Users/MDS2000604/Documents/GitHub/BlobProject/Blob/Content/Objects/BP_WeldingTorch.uasset",
 				"D:/Users/MDS2000604/Documents/GitHub/BlobProject/Blob/Content/__ExternalActors__/Maps/TestingMap/A/GL/FM4LL6KBJITVSOZYS5R0ER.uasset",
 				"D:/Users/MDS2000604/Documents/GitHub/BlobProject/Blob/Content/Objects/Tools/welding_torch.uasset",
